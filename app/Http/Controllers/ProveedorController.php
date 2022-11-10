@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Sector;
+use App\Models\Proveedor;
 use Illuminate\Http\Request;
 
-class SectorController extends Controller
+class ProveedorController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class SectorController extends Controller
      */
     public function index()
     {
-        return ['marcas'];
+        return ['preveedores'];
     }
 
     /**
@@ -31,10 +31,10 @@ class SectorController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Sector  $sector
+     * @param  \App\Models\Proveedor  $proveedor
      * @return \Illuminate\Http\Response
      */
-    public function show(Sector $sector)
+    public function show(Proveedor $proveedor)
     {
         //
     }
@@ -43,10 +43,10 @@ class SectorController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Sector  $sector
+     * @param  \App\Models\Proveedor  $proveedor
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Sector $sector)
+    public function update(Request $request, Proveedor $proveedor)
     {
         //
     }
@@ -54,10 +54,10 @@ class SectorController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Sector  $sector
+     * @param  \App\Models\Proveedor  $proveedor
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Sector $sector)
+    public function destroy(Proveedor $proveedor)
     {
         //
     }
